@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Created By: Tarundeep Singh
+Taarget audience is someone looking ot buy the bike and wants to know more about it-->
+	<meta charset="utf-8">
+  <title>buyroyal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header role="banner">
+		<div class="logo">
+			<a href="index.html">Buy Royal</a>
+		</div>
+
+		<div id="menu_icon"></div>
+		<nav role="navigation">
+      <ul>
+        <li><a href="#" title="">Home</a></li>
+        <li><a href="#" title="">About</a></li>
+        <li><a href="#" title="">Services</a></li>
+      </ul>
+		</nav>
+	</header>
+	<main role="main">
+		<article>
+			<img src="images/black.png" alt="Classic 350 Black" role="img" width="50%" height="50%"/>
+			<p>A British overhead valve single cylinder four-stroke motorcycle made by Royal Enfield in Redditch, Worcestershire<br />
+			The <a href="#">Royal Enfield</a> Bullet has the longest production run of any motorcycle having remained continuously in production since 1948. This classic machine has kept pace with advances in engineering and ergonomics without diluting its impeccable pedigree.<br />
+			This is a motorcycle that does not need to shout to be heard. Born of a rich heritage and bred with Royal Elegance this <a href="#">350cc</a> thumper has all the qualities of a typical Royal Enfield. Appreciated then, appreciated now...
+			</p>
+		</article>
+		<div class="images" aria-label="Pictures of different trims.">
+			<figure>
+				<img src="images/blue.png" alt="Classic 350 Blue" role="img" width="50%" height="50%">
+				<figcaption>Blue Trim</figcaption>
+			</figure>
+			<figure>
+				<img src="images/mint.png" alt="Classic 350 Mint" role="img" width="50%" height="50%">
+				<figcaption>Mint Trim</figcaption>
+			</figure>
+
+			<figure>
+				<img src="images/silver.png" alt="Classic 350 Silver" role="img" width="50%" height="50%">
+				<figcaption>Silver Trim</figcaption>
+			</figure>
+		</div>
+		<aside>
+
+		<!-- Specifications table -->
+		<h2>Specifications</h2>
+		<!-- aria property -->
+		<table aria-label="specifications">
+			<tr>
+				<th><a href="#">ENGINE</a></th>
+			</tr>
+			<tr>
+				<td>Type</td>
+				<td>Single Cylinder, 4 stroke, Twinspark</td>
+			</tr>
+			<tr>
+				<td>Displacement</td>
+				<td>346cc</td>
+			</tr>
+			<tr>
+				<td>Bore x stroke</td>
+				<td>70mm x 90mm</td>
+			</tr>
+			<tr>
+				<td>Maximum Power</td>
+				<td>19.8 bhp @ 5250 rpm</td>
+			</tr>
+			<tr>
+				<td>Maximum Torque</td>
+				<td>28 Nm @ 4000 rpm</td>
+			</tr>
+			<tr>
+				<td>Gearbox</td>
+				<td>5 Speed Constant Mesh</td>
+			</tr>
+			<tr>
+				<th>CHASSIS & SUSPENSION</th>
+			</tr>
+			<tr>
+				<td>Type</td>
+				<td>Single downtube, using engine as stressed member</td>
+			</tr><tr>
+				<td>Front suspension</td>
+				<td>Telescopic, 35mm forks, 130mm travel</td>
+			</tr><tr>
+				<!-- aria state -->
+				<td>Rear suspension</td>
+				<td aria-hidden="true">Twin shock absorbers with 5-step adjustable preload, 80mm travel</td>
+			</tr>
+		</table>
+	</aside>
+	<form role=”form”>
+		<h2>Buy A 350 Enfield</h2>
+		<fieldset>
+
+			<label for="firstname">First name:</label>
+			<!-- aria property -->
+			<input type="text" id="firstname" aria-describedby="firstname-tip" aria-required="true" name="First Name" />
+			<div role="tooltip" id="firstname-tip">Enter Your first name here.</div>
+			<br>
+			<label for="firstname">Last name:</label>
+			<input type="text" id="lastname" aria-describedby="firstname-tip" aria-required="true" name="lastname" />
+			<div role="tooltip" id="lastname-tip">Enter Your last name here.</div>
+			<br>
+			<input type="radio" name="country" value="canada" >Canada<br>
+			<!-- aria state -->
+			<input type="radio" name="country" aria-disabled="true" value="usa">U.S.A<br>
+			<select name="Province">
+				<option value="Province">Province</option>
+				<option value="AB">Alberta</option>
+				<!-- aria state -->
+				<option aria-checked="true" value="ON">Ontario</option>
+				<option value="BC">British Colombia</option>
+				<option value="MB">Manitoba</option>
+				<option value="NB">New Brunswick</option>
+				<option value="NL">Newfoundland</option>
+				<option value="NT">Northwest Territories</option>
+				<option value="NS">Nova Scotia</option>
+				<option value="NV">Nunavut</option>
+				<option value="PE">Prince Edward Island</option>
+				<option value="PQ">Québec</option>
+				<option value="SK">Saskatchewan</option>
+				<option value="YK">Yukon Territory</option>
+			</select>
+			<br>
+			<!-- aria property -->
+			<textarea name="myTextBox" aria-multiline="true" cols="50" rows="5">
+				Enter some text...
+			</textarea>
+			<br>
+			<input type="submit" value="Add to cart">
+		</fieldset>
+	</form>
+			<h2>Reviews</h2>
+	<div class="reviews">
+		<p>
+			HIJD@jkfk.com<br />
+			well i was lucky i did not have to book my beast.. i got it the same day i went to see the bike .. after riding my friend's beast i fell in love with it. lets be practical owning a karizma or pulsar or even R15 nowdays doesnt make you feel special but when people notice you at a red light stop or just passing by you . looking back at you just feels to good . THE THUMP!!!!
+		</p>
+		<p>
+			HIJD@jkfk.com<br />
+			Apending to my last review, am still waiting for the bike status. No update... Am really wonder, am in Chennai & the factory is also in Chennai really don't know the reason for delay (About to 3 Month). Other show rooms are able to deliver the bike in max 2 month don't know why classic motor unable to do. pathetic.
+		</p>
+		<p>
+			HIJD@jkfk.com<br />
+			Apending to my last review, am still waiting for the bike status. No update... Am really wonder, am in Chennai & the factory is also in Chennai really don't know the reason for delay (About to 3 Month). Other show rooms are able to deliver the bike in max 2 month don't know why classic motor unable to do. pathetic.
+		</p>
+		<p>
+			HIJD@jkfk.com<br />
+			Apending to my last review, am still waiting for the bike status. No update... Am really wonder, am in Chennai & the factory is also in Chennai really don't know the reason for delay (About to 3 Month). Other show rooms are able to deliver the bike in max 2 month don't know why classic motor unable to do. pathetic.
+		</p>
+	</div>
+</main>
+	<article class="alert">
+		<!-- aria property -->
+		<div id="status" role="alert" aria-live="assertive" class="online">
+			<p>You are online!.</p>
+		</div>
+	</article>
+<footer role="contentinfo"><p>Copyright 2017.  All rights reserved. </P></footer>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</body>
+</html>

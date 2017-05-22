@@ -1,0 +1,178 @@
+
+/*  Header  */
+header{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	min-height: 100%;
+	padding: 0 0 0 40px;
+	background: #ffffff;
+	float: left;
+	overflow: hidden;
+	z-index: 9999;
+}
+
+header .logo{
+	margin-top: 70px;
+}
+
+header .logo a {
+	text-decoration: none;
+	font-size: 2em;
+}
+
+header nav ul{
+	display: block;
+	overflow: hidden;
+	margin-top: 100px;
+	list-style: none;
+}
+
+header nav ul li{
+	display: block;
+	margin-bottom: 20px;
+}
+
+header nav ul li a{
+	color: #454545;
+
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+header .footer{
+	position: absolute;
+	bottom: 50px;
+}
+
+header .rights p{
+	color: #454545;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 18px;
+}
+
+header .rights a{
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*body*/
+
+body {
+	background-color: black;
+	font-family: arial, sans-serif;
+}
+
+main {
+	margin-top: 2%;
+	margin-left: 240px;
+	color: white;
+}
+
+article {
+	display: flex;
+}
+
+article img {
+	padding-left: 5%;
+}
+
+main div {
+		padding-left: 5%;
+}
+article p {
+	padding: 8% 10% 0 10%;
+
+}
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/*images home*/
+
+
+main div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+
+aside {
+	margin-top: 5%;
+}
+
+h2 {
+	font-size: 2em;
+	background-color: #9fa8a3;
+	text-align: center;
+	position: relative;
+}
+/* table */
+
+table {
+	margin-left: 30%;
+	margin-bottom: 5%;
+	color: antiquewhite;
+}
+
+th {
+	font-size: 20px;
+	color: #a56895;
+}
+
+th, td {
+	border-bottom: solid 2px white;
+	padding: 10px;
+}
+
+/*form*/
+fieldset {
+	color: white;
+	padding: 3%;
+	margin: 2%;
+	margin-right: 15%;
+	margin-left: 30%;
+	margin-bottom: 5%;
+}
+
+.reviews p {
+	border: 5px solid antiquewhite;
+	margin: 3%;
+	padding: 1%;
+	border-radius: 5%;
+}
+
+[role="tooltip"] {
+    display: none;
+    padding: 0.25em;
+    margin: 0;
+    color: #fff;
+    background: #EF8100;
+    width: 100%;
+    z-index: 2;
+}
+
+input:focus + [role="tooltip"] {
+    display: block;
+    position: relative;
+}
+
+.online {
+    padding:1em;
+    color:#fff;
+    background:green;
+}
+
+.offline {
+    padding-left:20%;
+    color:#fff;
+    background:red;
+}
